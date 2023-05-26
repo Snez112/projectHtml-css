@@ -1,0 +1,56 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(15,1,46,1) 5%, rgba(114,9,121,1) 52%, rgba(19,152,190,1) 93%, rgba(10,165,196,1) 100%);
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.feedback-container{
+    
+background: rgba(61, 51, 51, 0.37);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.6px);
+-webkit-backdrop-filter: blur(9.6px);
+border: 1px solid rgba(61, 51, 51, 0.3);
+width: 400px;
+height: 200px;
+position: relative;
+}
+.emoji-container{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    width: 47px;
+    background-color: yellow;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+.far{
+    margin: 1px;
+    transform: translateX(-1px);
+}
+.fas{
+    color: lightgray;
+    cursor: pointer;
+}
+.rating-container{
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25%;
+}
+.fas.active{
+    color: yellow;
+
+    
+
+}
